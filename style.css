@@ -1,0 +1,24 @@
+main.main{
+    display: flex;
+    gap:2rem;
+    width: 100%;
+
+}
+ol.ol li{
+    margin-bottom:.1rem;
+    cursor: pointer;
+}
+.content{
+    flex-grow: 1;
+}
+.content > div{
+    height:90vh;
+    display:none
+}
+.content div.show{
+    display:block;
+    background-color:rgb(192, 255, 206);
+    font-size:55px;
+    border:2px dashed green;
+    color:white;
+}
